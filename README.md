@@ -4,7 +4,7 @@
 * Docker
 * Docker compose
 
-## Tested using the following deployment environments
+## Tested using the following environments
 ### Operating systems and Docker versions
 * Ubuntu 16.04LTS (Server) using Docker version 17.05.0-ce, build 89658be
 * macOS version 10.12.6 using Docker version 17.09.0-ce-rc1, build ae21824
