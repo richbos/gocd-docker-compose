@@ -23,7 +23,7 @@
 
 **Notes**
 
-- To change the auto-reg key edit `/godata/config/cruise-config.xml`
+- To change the auto-reg key, edit `/godata/config/cruise-config.xml` and update corresponding entries for the `AGENT_AUTO_REGISTER_KEY` environment variable(s) in `/docker-compose.yml`.
 - The file `/godata/config/cruise-config.xml` will be populated/overwritten when the stack is launched (i.e with agent reg details). For a clean re-install, edit `cruise-config.xml` and remove the `<agents>` section.
 
 Example (remove this section):
