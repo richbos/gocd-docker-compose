@@ -24,9 +24,11 @@
 **Notes**
 
 - To change the auto-reg key, edit `/godata/config/cruise-config.xml` and update corresponding entries for the `AGENT_AUTO_REGISTER_KEY` environment variable(s) in `/docker-compose.yml`.
-- The file `/godata/config/cruise-config.xml` will be populated/overwritten when the stack is launched (i.e with agent reg details). For a clean install/re-install, edit `cruise-config.xml` and remove the `<agents>` section. 
+- The file `/godata/config/cruise-config.xml` will be populated/overwritten with agent details when the stack is relaunched/recreated.
 
-Example (remove the section that looks like this):
+For a clean install/re-install, edit `cruise-config.xml` and remove the `<agents>` section.
+
+Example (from a previously launched stack remove the newly created section that looks like this):
 
 ```
   <agents>
@@ -35,7 +37,7 @@ Example (remove the section that looks like this):
   </agents>
 ```
 
-Otherwise for stack stop/start us `docker-compose stop` and `docker-compose start`.
+Otherwise for stack (server & agents) stop/start use `docker-compose stop` and `docker-compose start`.
 ## Links
 [Docker main site](https://www.docker.com/)
 
