@@ -8,7 +8,7 @@
 ### Operating systems and Docker versions
 * Ubuntu 16.04LTS (Server) using Docker version 17.05.0-ce, build 89658be
 * macOS version 10.12.6 using Docker version 17.09.0-ce-rc1, build ae21824
-* macOS version 10.12.6 using Docker version version 18.06.1-ce-mac74, build 26766
+* macOS version 10.13.6 using Docker version version 18.06.1-ce-mac74, build 26766
 ### GoCD Docker image versions
 * gocd/gocd-server:v17.9.0 + gocd/gocd-agent-ubuntu-16.04:v17.9.0
 * gocd/gocd-server:v18.8.0 + gocd/gocd-agent-ubuntu-16.04:v18.8.0
