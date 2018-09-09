@@ -34,3 +34,7 @@ Example (remove this section):
     <agent hostname="248cfcf561d6" ipaddress="172.21.0.4" uuid="822c3766-b306-42c6-bb0d-a6b8fb7f3ef7" />
   </agents>
 ```
+
+## Links
+[Docker main site](https://www.docker.com/)
+[GoCD Docker repo](https://hub.docker.com/u/gocd/)
