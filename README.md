@@ -17,9 +17,10 @@
 
 1. Clone the repo
 2. From inside the repo run `docker-compose up -d` to run in daemon mode
-3. Wait for a few minutes
+3. Wait a few minutes for the server to start and the agents to register
 4. Access the GoCD server at `http://<hostname>:8153`
-5. To stop the stack use `docker-compose down`  
+5. To remove the stack use `docker-compose down`
+6. To stop/start the stack use `docker-compose stop` and `docker-compose start`
 
 **Notes**
 
@@ -37,7 +38,7 @@ Example (from a previously launched stack remove the newly created section that 
   </agents>
 ```
 
-Otherwise for stack (server & agents) stop/start use `docker-compose stop` and `docker-compose start`.
+Otherwise for stack (server & agents) stop/start, as advised use `docker-compose stop` and `docker-compose start`.
 ## Links
 [Docker main site](https://www.docker.com/)
 
